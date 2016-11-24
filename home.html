@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spring Boot</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="jumbotron">
+			<h1><center>Spring Boot <small>basic features</small></center></h1>
+	</div>
+	<div class="container">
+
+	<div class="panel panel-info">
+		<div class="panel-heading"><strong>Property</strong></div>
+		<div class="panel-body">
+			Dev
+		</div>
+	</div>
+	
+	<div class="panel panel-info">
+		<div class="panel-heading"><strong>Вторая суть</strong></div>
+		<div class="panel-body">
+			Какая-то суть
+		</div>
+	</div>
+	
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h3 class="panel-title">Table name</h3>
+			</div>
+			<table class="table">
+				<tr>
+					<th>ID</th>
+					<th>Text</th>
+				</tr>
+				<tr data-ng-repeat="data in datas">
+					<td>{{ data.id }}</td>
+					<td>{{ data.text }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+  </body>
+</html>
